@@ -3,9 +3,9 @@
   "buildCommand": "pnpm build",
   "outputDirectory": "dist/public",
   "rewrites": [
-    { "source": "/api/trpc/:path*", "destination": "/index.ts" },
-    { "source": "/api/oauth/:path*", "destination": "/index.ts" },
-    { "source": "/manus-storage/:path*", "destination": "/index.ts" },
+    { "source": "/api/trpc/:path*", "destination": "/api/index" },
+    { "source": "/api/oauth/:path*", "destination": "/api/index" },
+    { "source": "/manus-storage/:path*", "destination": "/api/index" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }

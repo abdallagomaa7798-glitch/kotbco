@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://kotbconstruction.com/sitemap.xml
+Sitemap: https://www.kotbconstruction.com/sitemap.xml
